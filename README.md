@@ -17,14 +17,14 @@ public class Stack<E> extends Vector<E>
 
 2. Cloneable: This is an interface in Java which needs to be implemented by a class to allow its objects to be cloned.
 
-3.Iterable<E>: This interface represents a collection of objects which is iterable — meaning which can be iterated.
+3. Iterable<E>: This interface represents a collection of objects which is iterable — meaning which can be iterated.
 
-4. Collection<E>: A Collection represents a group of objects known as its elements. 
-The Collection interface is used to pass around collections of objects where maximum generality is desired.
+4. Collection<E>: A Collection represents a group of objects known as its elements. The Collection interface is used to pass around collections of objects where maximum generality is desired.
 
 5. List<E>: The List interface provides a way to store the ordered collection. It is a child interface of Collection.
 
 6. RandomAccess: This is a marker interface used by List implementations to indicate that they support fast (generally constant time) random access.
+
 
 # How to create a stack:
 
